@@ -1,0 +1,22 @@
+/* Fonts */
+/* Roboto 300 Light: font-family: 'Roboto', sans-serif; */
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    background-color: gray;
+}
+
+a {
+    color: #ffffffff;
+
+    /* Border */
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 10px;
+    padding: 15px 32px;
+}
+
+a:hover {
+    border-color: #0000ff;
+}
