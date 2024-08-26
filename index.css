@@ -1,55 +1,70 @@
+/* General body and layout */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
     color: #333;
     line-height: 1.6;
 }
+
 header {
     background-color: #333;
     color: #fff;
     padding: 20px;
     text-align: center;
 }
+
 header h1 {
     font-size: 3rem;
     font-weight: bold;
 }
+
 nav {
     margin-top: 15px;
 }
+
 nav a {
     color: #fff;
     margin: 0 10px;
     text-decoration: none;
 }
+
 nav a:hover {
     text-decoration: underline;
 }
+
 section {
     padding: 20px;
     max-width: 1200px;
     margin: 20px auto;
 }
+
+/* Introduction Section */
 .intro {
     text-align: center;
 }
+
 .intro h2 {
     font-size: 2.5rem;
     margin-bottom: 10px;
 }
+
 .intro p {
     font-size: 1.2rem;
 }
+
+/* Projects Section */
 .projects {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
+
 .project-card {
     background-color: #fff;
     border-radius: 8px;
@@ -57,15 +72,123 @@ section {
     padding: 20px;
     margin: 10px;
     width: calc(33% - 40px);
+    text-align: center;
 }
+
 .project-card h3 {
     font-size: 1.5rem;
     margin-bottom: 10px;
 }
+
 .project-card p {
     font-size: 1rem;
     color: #666;
 }
+
+/* Styling for the 'Check it out' button */
+.project-card button {
+    padding: 12px 25px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: bold;
+    transition:
+        background-color 0.3s ease,
+        transform 0.3s ease;
+}
+
+.project-card button:hover {
+    background-color: #45a049;
+    transform: scale(1.05);
+}
+
+.project-card button:active {
+    background-color: #3e8e41;
+    transform: scale(1);
+}
+
+/* Languages & Tools Section */
+#languages {
+    padding: 40px 20px;
+    background-color: #f9f9f9;
+    border-top: 2px solid #ddd;
+    margin-top: 30px;
+}
+
+#languages h2 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    text-align: center;
+    color: #333;
+}
+
+.language-preferences {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.language-preferences div {
+    width: 30%;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    transition:
+        transform 0.3s ease,
+        box-shadow 0.3s ease;
+    text-align: center;
+}
+
+.language-preferences div:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+.language-preferences h3 {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.language-preferences ul {
+    list-style: none;
+    padding-left: 0;
+    font-size: 1.2rem;
+}
+
+.language-preferences li {
+    padding: 8px 0;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    margin: 8px 0;
+}
+
+.language-preferences li:nth-child(even) {
+    background-color: #e9e9e9;
+}
+
+/* Contact Section */
+#contact {
+    padding: 20px;
+    background-color: #fff;
+    text-align: center;
+}
+
+#contact h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+#contact p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
 footer {
     background-color: #333;
     color: #fff;
