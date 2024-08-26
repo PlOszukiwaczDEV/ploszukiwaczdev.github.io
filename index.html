@@ -15,7 +15,7 @@
     <link href="index.css" rel="stylesheet">
 
     <!-- Fonts -->
-    <!-- Roboto 300 Light -->
+<!-- Roboto 300 Light -->
 <!--     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
@@ -51,7 +51,135 @@
         <br>
         <a href="Ealgercraft/" class="a_nice">My Ealgercraft Archive</a>
     </div>
-</body> 
+</body>
 </html> -->
 
-Hello, this site is currently under development
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <title>PlOszukiwacz - Developer Portfolio</title>
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+            body {
+                font-family: Arial, sans-serif;
+                background-color: #f4f4f4;
+                color: #333;
+                line-height: 1.6;
+            }
+            header {
+                background-color: #333;
+                color: #fff;
+                padding: 20px;
+                text-align: center;
+            }
+            header h1 {
+                font-size: 3rem;
+                font-weight: bold;
+            }
+            nav {
+                margin-top: 15px;
+            }
+            nav a {
+                color: #fff;
+                margin: 0 10px;
+                text-decoration: none;
+            }
+            nav a:hover {
+                text-decoration: underline;
+            }
+            section {
+                padding: 20px;
+                max-width: 1200px;
+                margin: 20px auto;
+            }
+            .intro {
+                text-align: center;
+            }
+            .intro h2 {
+                font-size: 2.5rem;
+                margin-bottom: 10px;
+            }
+            .intro p {
+                font-size: 1.2rem;
+            }
+            .projects {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+            }
+            .project-card {
+                background-color: #fff;
+                border-radius: 8px;
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+                padding: 20px;
+                margin: 10px;
+                width: calc(33% - 40px);
+            }
+            .project-card h3 {
+                font-size: 1.5rem;
+                margin-bottom: 10px;
+            }
+            .project-card p {
+                font-size: 1rem;
+                color: #666;
+            }
+            footer {
+                background-color: #333;
+                color: #fff;
+                text-align: center;
+                padding: 10px;
+                margin-top: 20px;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>PlOszukiwacz</h1>
+            <nav>
+                <a href="#about">About Me</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </header>
+
+        <section class="intro" id="about">
+            <h2>Hello! I'm PlOszukiwacz</h2>
+                A passionate developer focused on creating clean and efficient
+                code. I primarily code in <b>Python</b> as a hobby.
+            </p>
+        </section>
+
+        <section id="projects">
+            <h2>My Projects</h2>
+            <div class="projects">
+                <div class="project-card">
+                    <h3>Online Radio Player</h3>
+                    <p>
+                        A web application that allows the user to listen to
+                        radios from all around the world.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <p>
+                Feel free to reach out to me at
+                <strong>ploszukiwacz1@gmail.com</strong> or follow me on
+                <a href="https://github.com/PlOszukiwaczDEV">GitHub</a>
+            </p>
+        </section>
+
+        <footer>
+            <p>&copy; 2024 PlOszukiwacz. All Rights Reserved.</p>
+        </footer>
+    </body>
+</html>
