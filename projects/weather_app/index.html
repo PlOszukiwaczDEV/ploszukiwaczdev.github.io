@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Weather App</title>
+        <link rel="stylesheet" href="index.css" />
+    </head>
+    <body>
+        <div class="container">
+            <h1>Weather App</h1>
+            <form id="weather-form">
+                <input
+                    type="text"
+                    id="city-input"
+                    placeholder="Enter city"
+                    required
+                />
+                <button type="submit">Get Weather</button>
+            </form>
+
+            <div id="weather-result" class="weather-info">
+                <h2>Weather Info</h2>
+                <p>
+                    <strong>Temperature:</strong>
+                    <span id="temperature"></span>°C
+                </p>
+                <p><strong>Condition:</strong> <span id="condition"></span></p>
+            </div>
+
+            <div class="dark-mode-toggle">
+                <label for="theme-switch">Dark Mode:</label>
+                <input type="checkbox" id="theme-switch" />
+            </div>
+        </div>
+
+        <script src="index.js"></script>
+    </body>
+</html>
