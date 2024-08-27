@@ -1,0 +1,329 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <title>Archive - PlOszukiwacz</title>
+        <link href="index.css" rel="stylesheet" />
+    </head>
+    <body>
+        <header>
+            <h1>PlOszukiwacz Archive</h1>
+            <nav>
+                <a href="#eaglercraft">Eaglercraft</a>
+                <a href="#category2">Category 2</a>
+                <a href="#category3">Category 3</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </header>
+
+        <section id="eaglercraft">
+            <h2>Eaglercraft Archive</h2>
+            <p>
+                Eaglercraft is a version of minecraft that can be played in the
+                browser.
+            </p>
+            <!-- eaglercraft.rip -->
+            <div class="category">
+                <h3>
+                    <a href="https://git.eaglercraft.rip"
+                        >git.eaglercraft.rip</a
+                    >
+                </h3>
+                <!-- Eaglercraft -->
+                <div class="subcategory">
+                    <h4>
+                        <a href="https://git.eaglercraft.rip/eaglercraft">
+                            eaglercraft
+                        </a>
+                    </h4>
+                    <div class="file-list">
+                        <!-- Ayuncraft 1.5 -->
+                        <div class="file-item">
+                            <h5>Ayuncraft 1.5</h5>
+                            <p>
+                                A version of eaglercraft by
+                                <a href="https://github.com/ayunami2000">
+                                    Ayunmai2000
+                                </a>
+                            </p>
+                            <a
+                                href="files/eaglercraft_rip/git/eaglercraft/ayuncraft-1.5.tar.xz"
+                                class="button"
+                                download
+                                >Download</a
+                            >
+                        </div>
+                        <!-- AyunEagVidMap -->
+                        <div class="file-item">
+                            <h5>Ayun Eag Vid Map 1.5</h5>
+                            <p></p>
+                            <a
+                                href="files/eaglercraft_rip/git/eaglercraft/ayunEagVidMap-1.5.tar.xz"
+                                class="button"
+                                download
+                                >Download</a
+                            >
+                        </div>
+                        <!-- Ayungee 1.5 -->
+                        <div class="file-item">
+                            <h5>Ayungee 1.5</h5>
+                            <p>
+                                Bungeecord alternative for eaglercraft servers
+                                running protocolsupport.
+                            </p>
+                            <a
+                                href="files/eaglercraft_rip/git/eaglercraft/ayungee-1.5.tar.xz"
+                                class="button"
+                                download
+                                >Download</a
+                            >
+                        </div>
+                        <!-- AyunMultiPort 1.5 -->
+                        <div class="file-item">
+                            <h5>Ayun Multi Port 1.5</h5>
+                            <p>
+                                Primarily for eaglercraft, but basically proxies
+                                minecraft to http web server.
+                            </p>
+                            <a
+                                href="files/eaglercraft_rip/git/eaglercraft/ayunMultiPort-1.5.tar.xz"
+                                class="button"
+                                download
+                                >Download</a
+                            >
+                        </div>
+                        <!-- AyunViaProxyEagUtils 1.5 -->
+                        <div class="file-item">
+                            <h5>Ayun Via Proxy Eag Utils 1.5</h5>
+                            <p>Eaglercraft support for viaproxy.</p>
+                            <a
+                                href="files/eaglercraft_rip/git/eaglercraft/ayunViaProxyEagUtils.tar.xz"
+                                class="button"
+                                download
+                                >Download</a
+                            >
+                        </div>
+                        <!-- AyunWebEPK -->
+                        <div class="file-item">
+                            <h5>Ayun Web EPK</h5>
+                            <p>Compile EPK files in your browser!</p>
+                            <a
+                                href="files/eaglercraft_rip/git/eaglercraft/ayunWebEPK.tar.xz"
+                                class="button"
+                                download
+                                >Download</a
+                            >
+                        </div>
+                        <!-- crashreport viewer -->
+                        <div class="file-item">
+                            <h5>Crash Report Viewer</h5>
+                            <p>
+                                Configurable web application, reads a "crash
+                                report" and deobfuscates minified javascript
+                                stack traces.
+                            </p>
+                            <a
+                                href="files/eaglercraft_rip/git/eaglercraft/crashreport-viewer.tar.xz"
+                                class="button"
+                                download
+                                >Download</a
+                            >
+                        </div>
+                        <!-- Eagler Binary Tools -->
+                        <div class="file-item">
+                            <h5>Eagler Binary Tools</h5>
+                            <p>
+                                Open source tools for working with the binary
+                                file formats invented for Eaglercraft.
+                            </p>
+                            <a
+                                href="files/eaglercraft_rip/git/eaglercraft/eagler-binary-tools.tar.xz"
+                                class="button"
+                                download
+                                >Download</a
+                            >
+                        </div>
+                        <!-- Eaglercraft 1.5 -->
+                        <div class="file-item">
+                            <h5>Eaglercraft 1.5</h5>
+                            <p>Minecraft 1.5.2 in browser.</p>
+                            <a
+                                href="files/eaglercraft_rip/git/eaglercraft/eaglercraft-1.5.tar.xz"
+                                class="button"
+                                download
+                                >Download</a
+                            >
+                        </div>
+                        <!-- Eaglercraft 1.5 Motd -->
+                        <div class="file-item">
+                            <h5>Eaglercraft 1.5 Motd</h5>
+                            <p>Adds animated MOTDs to eaglercraft servers.</p>
+                            <a
+                                href="files/eaglercraft_rip/git/eaglercraft/eaglercraft-1.5-motd.tar.xz"
+                                class="button"
+                                download
+                                >Download</a
+                            >
+                        </div>
+                        <!-- Eaglercraft 1.5 Replit -->
+                        <div class="file-item">
+                            <h5>Eaglercraft 1.5 Replit.</h5>
+                            <p>Eaglercraft server on replit</p>
+                            <a
+                                href="files/eaglercraft_rip/git/eaglercraft/eaglercraft-1.5-replit.tar.xz"
+                                class="button"
+                                download
+                                >Download</a
+                            >
+                        </div>
+                        <!-- Eaglercraft 1.8 -->
+                        <div class="file-item">
+                            <h5>Eaglercraft 1.8</h5>
+                            <p>Minecraft 1.8 in browser.</p>
+                            <a
+                                href="files/eaglercraft_rip/git/eaglercraft/eaglercraft-1.8.tar.xz"
+                                class="button"
+                                download
+                                >Download</a
+                            >
+                        </div>
+                        <!-- Eaglercraft 1.8 Replit -->
+                        <div class="file-item">
+                            <h5>Eaglercraft 1.8 Replit</h5>
+                            <p>Eaglercraft server on replit.</p>
+                            <a
+                                href="files/eaglercraft_rip/git/eaglercraft/eaglercraft-1.8-replit.tar.xz"
+                                class="button"
+                                download
+                                >Download</a
+                            >
+                        </div>
+                        <!-- Eaglercraft 1.8 Workspace -->
+                        <div class="file-item">
+                            <h5>Eaglercraft 1.8 Workspace</h5>
+                            <p>Pre-made workspace.</p>
+                            <a
+                                href="files/eaglercraft_rip/git/eaglercraft/eaglercraft-1.8-workspace.tar.xz"
+                                class="button"
+                                download
+                                >Download</a
+                            >
+                        </div>
+                        <!-- Eaglercraft b1.3 -->
+                        <div class="file-item">
+                            <h5>Eaglercraft b1.3</h5>
+                            <p>Minecraft b1.3 in browser.</p>
+                            <a
+                                href="files/eaglercraft_rip/git/eaglercraft/eaglercraft-b1.3.tar.xz"
+                                class="button"
+                                download
+                                >Download</a
+                            >
+                        </div>
+                        <!-- Eaglercraft Builds -->
+                        <div class="file-item">
+                            <h5>Eaglercraft Builds</h5>
+                            <p>Builds of eaglercraft.</p>
+                            <a
+                                href="files/eaglercraft_rip/git/eaglercraft/eaglercraft-builds.tar.xz"
+                                class="button"
+                                download
+                                >Download</a
+                            >
+                        </div>
+                        <!-- Eaglercraft HTML5 Ping Emebed -->
+                        <div class="file-item">
+                            <h5>Eaglercraft HTML5 Ping Emebed</h5>
+                            <p>An HTML5 Emebed link to a eaglercraft server.</p>
+                            <a
+                                href="files/eaglercraft_rip/git/eaglercraft/eaglercraft-HTML5_Ping_Embed.tar.xz"
+                                class="button"
+                                download
+                                >Download</a
+                            >
+                        </div>
+                        <!-- Eaglercraft MOTD 1.8 -->
+                        <div class="file-item">
+                            <h5>Eaglercraft MOTD 1.8</h5>
+                            <p>Animated MOTDs.</p>
+                            <a
+                                href="files/eaglercraft_rip/git/eaglercraft/eaglercraft-motd-1.8.tar.xz"
+                                class="button"
+                                download
+                                >Download</a
+                            >
+                        </div>
+                        <!-- Origin Blacklist 1.8 -->
+                        <div class="file-item">
+                            <h5>Origin Blacklist 1.8</h5>
+                            <p>Origin Blacklist feature from 1.5.2.</p>
+                            <a
+                                href="files/eaglercraft_rip/git/eaglercraft/origin-blacklist-1.8.tar.xz"
+                                class="button"
+                                download
+                                >Download</a
+                            >
+                        </div>
+                    </div>
+                </div>
+                <!-- 3rdparty -->
+                <div class="subcategory">
+                    <h4>
+                        <a href="https://git.eaglercraft.rip/3rdparty">
+                            3rdparty
+                        </a>
+                    </h4>
+                    <div class="file-list">
+                        <div class="file-item">
+                            <h5>Lorem</h5>
+                            <p>
+                                Lorem
+                            </p>
+                            <a
+                                href="files/Lorem"
+                                class="button"
+                                download
+                                >Download</a
+                            >
+                        </div>
+                        <div class="file-item">
+                            <h5>Lorem</h5>
+                            <p>
+                                Lorem
+                            </p>
+                            <a
+                                href="files/Lorem"
+                                class="button"
+                                download
+                                >Download</a
+                            >
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        <section id="category2">
+            <h2>Other Category</h2>
+        </section>
+
+        <section id="category3">
+            <h2>Another Category</h2>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <p>
+                If you have any questions or need assistance, feel free to reach
+                out to me at
+                <strong>ploszukiwacz1@gmail.com</strong> or follow me on
+                <a href="https://github.com/PlOszukiwaczDEV">GitHub</a>.
+            </p>
+        </section>
+
+        <footer>
+            <p>&copy; 2024 PlOszukiwacz. All Rights Reserved.</p>
+        </footer>
+    </body>
+</html>
