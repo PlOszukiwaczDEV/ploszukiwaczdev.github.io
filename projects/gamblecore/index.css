@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+}
+#video-container {
+    display: none;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+video {
+    width: 50%;
+    height: 50%;
+    object-fit: contain;
+}
+#start-button {
+    position: relative;
+    padding: 20px 40px;
+    background-color: white;
+    color: blue;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+    border: 2px solid blue;
+    animation: outline-animation 1s steps(8) infinite;
+}
+@keyframes outline-animation {
+    0% { outline: 2px solid blue; }
+    100% { outline: 2px solid blue; }
+}

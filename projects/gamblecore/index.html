@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+	<meta content="#004cff" data-react-helmet="true" name="theme-color" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gambling Game</title>
+    <link rel="stylesheet" href="index.css" >
+</head>
+<body>
+    <div id="video-container">
+        <video id="video" autoplay></video>
+    </div>
+    <button id="start-button">Start Gambling</button>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            var startVideo = 'start.mp4';
+            var loopVideo = 'loop.mp4';
+            var loopCount = 0;
+
+            var startVideoElement = document.createElement('video');
+            var loopVideoElement = document.createElement('video');
+
+            startVideoElement.src = startVideo;
+            loopVideoElement.src = loopVideo;
+
+            // Preload videos
+            Promise.all([
+                new Promise((resolve) => { startVideoElement.oncanplaythrough = resolve; }),
+                new Promise((resolve) => { loopVideoElement.oncanplaythrough = resolve; })
+            ]).then(() => {
+                document.getElementById('start-button').addEventListener('click', function() {
+                    var videoContainer = document.getElementById('video-container');
+                    var videoElement = document.getElementById('video');
+                    var startButton = document.getElementById('start-button');
+
+                    // Hide the button and show the video container
+                    startButton.style.display = 'none';
+                    videoContainer.style.display = 'flex';
+
+                    // Play the start video
+                    videoElement.src = startVideo;
+                    videoElement.play();
+
+                    // When the start video ends, switch to the loop video without pause
+                    videoElement.addEventListener('ended', function() {
+                        videoElement.src = loopVideo;
+                        videoElement.loop = true;
+                        videoElement.play();
+                        loopVideoElement.play();
+                    }, { once: true });
+
+                    // Update the title on each loop
+                    videoElement.addEventListener('timeupdate', function() {
+                        if (videoElement.currentTime >= videoElement.duration - 0.1) {
+                            loopCount = loopCount + 4;
+                            document.title = `You've lost ${loopCount} times`;
+                        }
+                    });
+                });
+            });
+        });
+    </script>
+</body>
+</html>
