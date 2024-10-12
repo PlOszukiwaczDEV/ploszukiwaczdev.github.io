@@ -6,15 +6,12 @@ const radioStations = {
     { name: "Tok FM", url: "https://radiostream.pl/tuba10-1.mp3" },
     { name: "Radio Plus", url: "https://pl01.cdn.eurozet.pl/plu-waw.mp3" },
     // Radio Eska
-    {
-      name: "Radio ZET",
-      url: "https://r.dcs.redcdn.pl/sc/o2/Eurozet/live/audio.livx",
-    },
-    {
-      name: "Radio RMF MAXXX",
-      url: "https://rs9-krk2-cyfronet.rmfstream.pl/RMFMAXXX48",
-    },
+    { name: "Radio ZET", url: "https://r.dcs.redcdn.pl/sc/o2/Eurozet/live/audio.livx", },
+    { name: "Radio RMF MAXXX", url: "https://rs9-krk2-cyfronet.rmfstream.pl/RMFMAXXX48", },
   ],
+  USA: [
+    
+  ]
 };
 
 const countrySelect = document.getElementById("country-select");
@@ -25,7 +22,7 @@ const themeToggle = document.getElementById("theme-toggle");
 // Populate country dropdown
 function populateCountries() {
   const countries = Object.keys(radioStations);
-  countries.forEach((country) => {
+  countries.forEach((country) => { 
     const option = document.createElement("option");
     option.value = country;
     option.textContent = country;

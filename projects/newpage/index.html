@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Startpage</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 20px;
+            text-align: center;
+        }
+        h1 {
+            color: #333;
+        }
+        p {
+            font-size: 18px;
+        }
+        .search-bar {
+            margin: 20px 0;
+        }
+        input[type="text"] {
+            padding: 10px;
+            width: 300px;
+            font-size: 16px;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        .shortcuts {
+            margin-top: 30px;
+        }
+        .shortcut {
+            margin: 10px;
+            padding: 15px;
+            background-color: #007bff;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 16px;
+            display: inline-flex;
+            align-items: center;
+        }
+        .shortcut:hover {
+            background-color: #0056b3;
+        }
+        .shortcut img {
+            width: 20px;
+            height: 20px;
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Startpage (to overwrite the searxng one)</h1>
+
+    <!-- Search Bar -->
+    <div class="search-bar">
+        <form action="http://localhost:8080/search" method="GET">
+            <input type="text" name="q" placeholder="Search here..." />
+            <button type="submit">Search</button>
+        </form>
+    </div>
+
+    <!-- Shortcuts Section with Favicons -->
+    <div class="shortcuts">
+        <a href="http://rtnyl-pll.ddnsfree.com" class="shortcut">
+            <img src="http://rtnyl-pll.ddnsfree.com/favicons/favicon.ico" alt="rtnyL (PlLabs) Favicon" />
+            rtnyL (PlLabs)
+        </a>
+        <a href="https://www.youtube.com" class="shortcut">
+            <img src="https://www.youtube.com/favicon.ico" alt="Youtube Favicon" />
+            Youtube
+        </a>
+        <a href="https://www.github.com" class="shortcut">
+            <img src="https://www.github.com/favicon.ico" alt="GitHub Favicon" />
+            GitHub
+        </a>
+        <a href="https://www.chatgpt.com" class="shortcut">
+            <img src="https://www.chatgpt.com/favicon.ico" alt="ChatGPT Favicon" />
+            ChatGPT
+        </a>
+    </div>
+
+</body>
+</html>
